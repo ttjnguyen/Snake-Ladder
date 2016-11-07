@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2D3834F11DCEABC600411822 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3834F01DCEABC600411822 /* main.m */; };
+		2D3834F91DCEAC9400411822 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3834F81DCEAC9400411822 /* Player.m */; };
+		2D3834FC1DCEB4ED00411822 /* Ladder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3834FB1DCEB4ED00411822 /* Ladder.m */; };
+		2D3834FF1DD0E5F000411822 /* Snake.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3834FE1DD0E5F000411822 /* Snake.m */; };
+		2D3835021DD0E62B00411822 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3835011DD0E62B00411822 /* GameController.m */; };
+		2D3835051DD0E65D00411822 /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3835041DD0E65D00411822 /* InputCollector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		2D3834ED1DCEABC600411822 /* Snake&Ladder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Snake&Ladder"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3834F01DCEABC600411822 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D3834F71DCEAC9400411822 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		2D3834F81DCEAC9400411822 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		2D3834FA1DCEB4ED00411822 /* Ladder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ladder.h; sourceTree = "<group>"; };
+		2D3834FB1DCEB4ED00411822 /* Ladder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ladder.m; sourceTree = "<group>"; };
+		2D3834FD1DD0E5F000411822 /* Snake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snake.h; sourceTree = "<group>"; };
+		2D3834FE1DD0E5F000411822 /* Snake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Snake.m; sourceTree = "<group>"; };
+		2D3835001DD0E62B00411822 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		2D3835011DD0E62B00411822 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		2D3835031DD0E65D00411822 /* InputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
+		2D3835041DD0E65D00411822 /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				2D3834F01DCEABC600411822 /* main.m */,
+				2D3834F71DCEAC9400411822 /* Player.h */,
+				2D3834F81DCEAC9400411822 /* Player.m */,
+				2D3834FA1DCEB4ED00411822 /* Ladder.h */,
+				2D3834FB1DCEB4ED00411822 /* Ladder.m */,
+				2D3834FD1DD0E5F000411822 /* Snake.h */,
+				2D3834FE1DD0E5F000411822 /* Snake.m */,
+				2D3835001DD0E62B00411822 /* GameController.h */,
+				2D3835011DD0E62B00411822 /* GameController.m */,
+				2D3835031DD0E65D00411822 /* InputCollector.h */,
+				2D3835041DD0E65D00411822 /* InputCollector.m */,
 			);
 			path = "Snake&Ladder";
 			sourceTree = "<group>";
@@ -118,6 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3835051DD0E65D00411822 /* InputCollector.m in Sources */,
+				2D3834FF1DD0E5F000411822 /* Snake.m in Sources */,
+				2D3834F91DCEAC9400411822 /* Player.m in Sources */,
+				2D3834FC1DCEB4ED00411822 /* Ladder.m in Sources */,
+				2D3835021DD0E62B00411822 /* GameController.m in Sources */,
 				2D3834F11DCEABC600411822 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
